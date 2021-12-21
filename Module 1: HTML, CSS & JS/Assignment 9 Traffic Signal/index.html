@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      #controlPanel {
+        float: left;
+        padding-top: 30px;
+      }
+
+      .button {
+        /* background-color: gray; */
+        /* color: white; */
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        margin: 90px 40px;
+        cursor: pointer;
+      }
+
+      #traffic-light {
+        height: 590px;
+        width: 200px;
+        background-color: #333;
+        border-radius: 40px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .bulb {
+        height: 150px;
+        width: 150px;
+        background-color: #111;
+        border-radius: 50%;
+        margin: 25px auto;
+        transition: background 500ms;
+      }
+      .header {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .circle {
+          background-color: black;
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          margin-bottom: -1px;
+          cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <button type="button" onclick="stay()" class="btn btn-outline-primary">
+        Manual
+      </button>
+      &nbsp;&nbsp;&nbsp;
+      <button
+        type="button"
+        onclick="window.location.href='./index2.html'"
+        class="btn btn-outline-primary"
+      >
+        Automatic
+      </button>
+    </div>
+    <div id="controlPanel">
+      <h1 id="clearButton" class="button btn btn-outline-primary">Clear Lights</h1>
+    </div>
+    <div id="traffic-light">
+      <div class="circle"><div id="stopLight" class="bulb"></div></div>
+      <div class="circle"><div id="slowLight" class="bulb"></div></div>
+      <div class="circle"><div id="goLight" class="bulb"></div></div> 
+   </div>
+    <script>
+      document.getElementById("stopLight").onclick = illuminateRed;
+      document.getElementById("slowLight").onclick = illuminateYellow;
+      document.getElementById("goLight").onclick = illuminateGreen;
+      document.getElementById("clearButton").onclick = clearLights;
+
+      function stay() {
+        alert("You are in Manual Mode");
+      }
+
+      function illuminateRed() {
+        clearLights();
+        document.getElementById("stopLight").style.backgroundColor = "red";
+      }
+
+      function illuminateYellow() {
+        var rl = document.getElementById("stopLight").style.backgroundColor;
+        if (rl == "red") {
+          clearLights();
+          document.getElementById("slowLight").style.backgroundColor = "yellow";
+        } else {
+          alert("Sequence is important for safety");
+        }
+      }
+
+      function illuminateGreen() {
+        var y = document.getElementById("slowLight").style.backgroundColor;
+        if (y == "yellow") {
+          clearLights();
+          document.getElementById("goLight").style.backgroundColor = "green";
+        } else {
+          alert(
+            "Sequence is important for safety"
+          );
+        }
+      }
+
+      function clearLights() {
+        document.getElementById("stopLight").style.backgroundColor = "black";
+        document.getElementById("slowLight").style.backgroundColor = "black";
+        document.getElementById("goLight").style.backgroundColor = "black";
+      }
+    </script>
+  </body>
+</html>

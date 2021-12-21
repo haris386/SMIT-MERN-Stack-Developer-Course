@@ -1,0 +1,60 @@
+#head {
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  background-color: rgb(216, 214, 214);
+  border-radius: 10px;
+  margin-left: -1%;
+}
+
+#left {
+  display: inline-block;
+  width: 28%;
+  background-color: rgb(216, 214, 214);
+  border-radius: 10px;
+  height: 70%;
+  overflow: hidden;
+}
+
+#right {
+  display: inline-block;
+  width: 67%;
+  padding: 1%;
+  background-color: gray;
+  position: absolute;
+  border-radius: 10px;
+  height: 70%;
+  margin-left: 5%;
+  margin-right: 1.5%;
+  right: 2px;
+  overflow: hidden;
+}
+
+#foot {
+  width: 98%;
+  height: 60px;
+  padding: 0.1% 0% 2% 1%;
+  background-color: rgb(216, 214, 214);
+  border-radius: 10px;
+  margin-top: 15%;
+}
+
+#h {
+  list-style: none;
+  color: blue;
+  margin-left: -5%;
+}
+
+.blue {
+  color: blue;
+  text-decoration: none;
+}
+
+#red {
+  color: red;
+  text-decoration: none;
+}
+
+.lh {
+  line-height: 140.5%;
+}

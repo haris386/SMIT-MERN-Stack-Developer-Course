@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="app.js"></script> -->
+    <title>Digital Clock</title>
+    <!-- <style>
+        body {
+            background-color: #121212;
+        }
+
+        #clock {
+            font-family: 'Orbitron', sans-serif;
+            color: #66ff99;
+            font-size: 56px;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id="clock"></div>  
+    <script>
+        function showTime() {
+            var date = new Date();
+            var h = date.getHours(); 
+            var m = date.getMinutes(); 
+            var s = date.getSeconds(); 
+            var am_pm = "AM";
+
+            if (h == 0) {
+                h = 12;
+            }
+
+            if (h > 12) {
+                h = h - 12;
+                am_pm = "PM";
+            }
+
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+
+            var time = h + ":" + m + ":" + s + " " + am_pm;
+            document.getElementById("clock").innerText = time;
+            document.getElementById("clock").textContent = time;
+
+            setTimeout(showTime, 1000);
+
+        }
+
+        showTime();
+    </script>
+</body>
+
+</html>
