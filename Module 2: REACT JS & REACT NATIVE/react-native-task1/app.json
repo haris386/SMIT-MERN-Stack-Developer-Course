@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "react-native-TodoApp",
+    "slug": "react-native-todoapp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "A simple ReactNative TodoApp made with the help of native components such as \"react-native-gesture-handler\" "
+  },
+  "name": "react-native-task1"
+}
