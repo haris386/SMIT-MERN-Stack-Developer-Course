@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "React-Navigation",
+    "slug": "react-navigation",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "Simple Login and SignUp app made with the help of react navigation"
+  },
+  "name": "task2-reactnativenavigation"
+}
