@@ -1,0 +1,46 @@
+#page {
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 4px double #000;
+  background-color: #ffffff;
+}
+
+#heading {
+  width: 150px;
+  margin: 10px auto 25px auto;
+}
+
+#nav {
+  list-style: none;
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover,
+a.on {
+  color: red;
+}
+
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}

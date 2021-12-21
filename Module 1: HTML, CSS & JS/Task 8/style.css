@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    margin: 10px;
+}
+
+img {
+    height: 300px;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    text-shadow: 0 0 10px rgb(87 255 255);
+}

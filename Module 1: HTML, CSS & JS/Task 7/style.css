@@ -1,0 +1,222 @@
+body {
+  border: 5px solid #75a8be;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container1 {
+  display: flex;
+  border: 5px solid #ffbd96;
+}
+
+#logo {
+  background-color: #8e99f3;
+  width: 7%;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#gapdiv {
+  width: 78.6%;
+}
+
+#insidecontainer {
+  display: flex;
+}
+
+#products {
+  background-color: #ff867c;
+  width: 90px;
+  height: 50px;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#teams {
+  background-color: #80d6ff;
+  width: 70px;
+  height: 50px;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#container2 {
+  border: 5px solid #73a8bf;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.leftimg {
+  display: flex;
+  border: 5px solid #73a8bf;
+  height: 140px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#chatcon {
+  display: flex;
+}
+
+#imgcon {
+  display: flex;
+  width: 20%;
+}
+
+#undercon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#headingcon {
+  display: flex;
+}
+#paracon {
+  display: flex;
+}
+
+/* MIDDLE DIV STARTS HERE */
+#rightimg {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 5px solid #73a8bf;
+  height: 140px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+#chatcon3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#imgcon3 {
+  display: flex;
+  width: 20%;
+}
+
+#undercon3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#headingcon3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#paracon3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* LAST DIV STARTS HERE */
+#chatcon2 {
+  display: flex;
+}
+
+#imgcon2 {
+  display: flex;
+  width: 20%;
+}
+
+#undercon2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#headingcon2 {
+  display: flex;
+}
+#paracon2 {
+  display: flex;
+}
+
+#insidecontainer2 {
+  border: 5px solid #73a8bf;
+  /* margin: 10px; */
+  width: 40%;
+  height: 752px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightside {
+  display: flex;
+  justify-content: center;
+}
+
+#mainchatbox {
+  display: flex;
+}
+
+#centerbox {
+  background-color: #80d6ff;
+  width: 50%;
+  /* display: flex; */
+  text-align: center;
+  color: white;
+}
+
+/*  FOOTER PART STARTS FROM HERE */
+#container3 {
+  display: flex;
+  border: 5px solid #73a8bf;
+  flex-grow: 4;
+  justify-content: center;
+}
+
+#contact {
+  background-color: #ff867c;
+  width: 25%;
+  height: 50px;
+  margin: 10px 0px 10px 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#careers {
+  background-color: #80d6ff;
+  width: 50%;
+  height: 50px;
+  margin: 10px 0px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+#about {
+  background-color: #98ee99;
+  width: 25%;
+  height: 50px;
+  margin: 10px 10px 10px 0px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.c {
+  color: black;
+  margin: 1% 0%;
+}
+
+#gapdiv {
+  width: 78.6%;
+}

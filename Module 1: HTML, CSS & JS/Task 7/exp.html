@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flexbox Task</title>
+    <style>
+      body {
+        border: 5px solid #75a8be;
+      }
+
+      #container1 {
+        display: flex;
+        border: 5px solid #ffbd96;
+      }
+
+      #left {
+        background-color: #8e99f3;
+        width: 7%;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #insidecontainer {
+        display: flex;
+        /* position: relative;
+        left: 76%; */
+      }
+
+      #right1 {
+        background-color: #ff867c;
+        width: 90px;
+        height: 50px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        /* position: relative;
+        left: 10%; */
+      }
+
+      #right2 {
+        background-color: #80d6ff;
+        width: 70px;
+        height: 50px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #container2 {
+        border: 5px solid #73a8bf;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .leftimg {
+        display: flex;
+        border: 5px solid #73a8bf;
+        height: 140px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 30px;
+      }
+
+      #chatcon {
+        display: flex;
+      }
+
+      #imgcon {
+        display: flex;
+        width: 20%;
+      }
+
+      #undercon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #headingcon {
+        display: flex;
+      }
+      #paracon {
+        display: flex;
+      }
+
+      /* MIDDLE DIV STARTS HERE */
+      #rightimg {
+        display: flex;
+        flex-direction: row-reverse;
+        border: 5px solid #73a8bf;
+        height: 140px;
+        margin: 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-left: 30px;
+      }
+
+      #chatcon3 {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      #imgcon3 {
+        display: flex;
+        width: 20%;
+      }
+
+      #undercon3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #headingcon3 {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      #paracon3 {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      /* LAST DIV STARTS HERE */
+      #chatcon2 {
+        display: flex;
+      }
+
+      #imgcon2 {
+        display: flex;
+        width: 20%;
+      }
+
+      #undercon2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #headingcon2 {
+        display: flex;
+      }
+      #paracon2 {
+        display: flex;
+      }
+
+      #insidecontainer2 {
+        border: 5px solid #73a8bf;
+        /* margin: 10px; */
+        width: 40%;
+        height: 752px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #rightside {
+        display: flex;
+        justify-content: center;
+      }
+
+      #mainchatbox {
+        display: flex;
+      }
+
+      #centerbox {
+        background-color: #80d6ff;
+        width: 50%;
+        /* display: flex; */
+        text-align: center;
+        color: white;
+      }
+
+      /*  FOOTER PART STARTS FROM HERE */
+      #container3 {
+        display: flex;
+        border: 5px solid #73a8bf;
+        flex-grow: 4;
+        justify-content: center;
+      }
+
+      #leftF {
+        background-color: #ff867c;
+        width: 25%;
+        height: 50px;
+        margin: 10px 0px 10px 10px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #centerF {
+        background-color: #80d6ff;
+        width: 50%;
+        height: 50px;
+        margin: 10px 0px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      #rightF {
+        background-color: #98ee99;
+        width: 25%;
+        height: 50px;
+        margin: 10px 10px 10px 0px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .c {
+        color: black;
+      }
+      .space {
+        width: 80%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id="container1">
+        <div id="left">
+          <p>Logo</p>
+        </div>
+        <div class="space"></div>
+        <div id="insidecontainer">
+          <div id="right1">
+            <p>Products</p>
+          </div>
+          <div id="right2">
+            <p>Teams</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div id="mainchatbox">
+        <div id="container2">
+          <div class="leftimg">
+            <div id="chatcon">
+              <div id="imgcon"><img src="p.png" alt="usericon" /></div>
+              <div id="undercon">
+                <div id="headingcon">
+                  <h3 class="c">Lisa</h3>
+                </div>
+                <div id="paracon">
+                  <p class="c">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="rightimg">
+            <div id="chatcon3">
+              <div id="imgcon3"><img src="p.png" alt="usericon" /></div>
+              <div id="undercon3">
+                <div id="headingcon3">
+                  <h3 class="c">David</h3>
+                </div>
+                <div id="paracon3">
+                  <p class="c">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="leftimg">
+            <div id="chatcon2">
+              <div id="imgcon2"><img src="p.png" alt="usericon" /></div>
+              <div id="undercon2">
+                <div id="headingcon2">
+                  <h3 class="c">Lisa</h3>
+                </div>
+                <div id="paracon2">
+                  <p class="c">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="insidecontainer2">
+          <div id="rightside">
+            <div id="centerbox"><p>This box is perfectly centered</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div id="container3">
+        <div id="leftF">
+          <p>Contact</p>
+        </div>
+        <div id="centerF">
+          <p>Careers</p>
+        </div>
+        <div id="rightF">
+          <p>About</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+body {
+  background-color: #f0f2f5;
+}
+
+#main {
+  display: flex;
+  margin: auto;
+  margin-top: 140px;
+  width: 90px;
+  height: 200px;
+  align-content: center;
+}
+
+#fb {
+  flex: 1;
+  margin-left: 30px;
+  margin-top: 31px;
+}
+
+img {
+  width: 301;
+  height: 106px;
+  margin-bottom: -42px;
+  margin-left: -526px;
+}
+
+#KR {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: -42px;
+  margin-left: -491px;
+}
+
+#KR:hover {
+  cursor: pointer;
+}
+
+#figcaption {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  width: 100px;
+  margin-top: 46px;
+  margin-left: -469px;
+}
+
+#tagline {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-left: 26px;
+  margin-left: -498px;
+}
+
+#form {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 2px #d4d4d4;
+  background-color: white;
+  width: 396px;
+  height: 349px;
+  float: right;
+  margin: 60%;
+  margin-left: 112px;
+  margin-top: -4px;
+}
+
+.fields {
+  width: 342px;
+  height: 28px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 5px;
+  margin: 15px 10px 0px 10px;
+  padding: 14px 16px;
+}
+
+.fields:focus {
+  outline: none;
+  border-color: #719ece;
+  box-shadow: 0 0 5px #719ece;
+}
+
+.btn {
+  width: 375px;
+  height: 50px;
+  background-color: #1877f2;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  padding: 14px 16px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #1668d3;
+}
+
+#FP {
+  color: #1877f2;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 120px;
+}
+
+#gap {
+  width: 373px;
+  margin: 30px;
+  border-radius: 19px;
+}
+
+.btn2 {
+  width: 220px;
+  height: 50px;
+  background-color: #42b72a;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  padding: 14px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin: 10px 88px;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  background-color: #399925;
+}
+
+#CBBP {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+  margin: 30px;
+  margin-left: 55px;
+}
+
+#CP {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#CP:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
