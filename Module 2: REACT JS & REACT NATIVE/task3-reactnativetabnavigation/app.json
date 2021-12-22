@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "React-DrawerTabsNavigation",
+    "slug": "react-drawertabsnavigation",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "Simple Instagram app made with the help of react drawer tabs navigation."
+  },
+  "name": "task2-reactnativenavigation"
+}
