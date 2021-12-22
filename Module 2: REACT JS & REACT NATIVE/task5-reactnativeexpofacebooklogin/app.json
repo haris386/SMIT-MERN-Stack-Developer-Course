@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "reactexpofacebooklogin",
+    "slug": "reactexpofacebooklogin",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  },
+  "name": "task5-reactexpofacebooklogin"
+}
